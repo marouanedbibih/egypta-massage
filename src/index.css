@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-home {
+    background-image: url('../public/img/background/home.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; /* Make sure to add this */
+    
+
+    /* Add other styling as needed */
+}
+
+/* Adjust opacity by changing the last value (0.3) */
+.bg-home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Change opacity value */
+}
+
+.bg-auth {
+    background-image: url('../public/img/background/auth.webp');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; /* Make sure to add this */
+    
+
+    /* Add other styling as needed */
+}
+
+/* Adjust opacity by changing the last value (0.3) */
+.bg-auth::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Change opacity value */
+}
+.bg-service-home {
+    background-image: url('../public/img/background/bg-5.webp');
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: max-content;
+    position: relative; /* Make sure to add this */
+    
+
+    /* Add other styling as needed */
+}
+
+/* Adjust opacity by changing the last value (0.3) */
+.bg-service-home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Change opacity value */
+}
+
+.bg-nos-massages {
+    background-image: url('../public/img/background/bg-3.webp');
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; /* Make sure to add this */
+    
+
+    /* Add other styling as needed */
+}
+
+/* Adjust opacity by changing the last value (0.3) */
+.bg-nos-massages::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Change opacity value */
+}
